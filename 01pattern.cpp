@@ -3,6 +3,7 @@ using namespace std;
 int main()
 {
     int i,j,n,c;
+    cout<<"Enter:";
     cin>>n;
     for(i=1;i<=n;i++)
     {
