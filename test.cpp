@@ -1,11 +1,9 @@
 
-#include<stdio.h>
+#include<iostream>
 using namespace std;
 int main()
 {
-int a = 5;
-	a = 1, 2, 3;
-	printf("%d", a);
-	return 0;
+  int a=3,b=5;
+cout<<(a^3);
 }
 
