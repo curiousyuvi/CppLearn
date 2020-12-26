@@ -13,7 +13,7 @@ int main()
     {
     int a=0,b=1,c;
     cout<<a<<" "<<b<<" ";
-    for(int i=1;i<=n;i++)
+    for(int i=1;i<(n-1);i++)
     {
      c=a+b;
      cout<<c<<" ";
