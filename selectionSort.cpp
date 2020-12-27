@@ -5,20 +5,22 @@ void sortDescend(int a[],int n)
 {
     
     
-    for(int i=0;i<n;i++)
-    {   int k;
-        int ma=INT_MIN;
-        for(int j=i;j<n;j++)
-        {
-            if(a[j]>ma)
+     for(int i=0;i<n-1;i++)
+    {
+
+        int temp;
+        for(int j=i+1;j<n;j++)
+        {   
+            if(a[j]>a[i])
             {
-             ma=a[j];
-             k=j;
+             temp=a[j];
+             a[j]=a[i];
+             a[i]=temp;
              
             }
         }
-        a[k]=a[i];
-        a[i]=ma;
+        
+        
     }
     for(int i=0;i<n;i++)
     cout<<a[i]<<" ";
@@ -29,21 +31,22 @@ void sortDescend(int a[],int n)
 void sortAscend(int a[],int n)
 {
     
-    int k;
-    for(int i=0;i<n;i++)
+    
+    for(int i=0;i<n-1;i++)
     {
-        int mi=INT_MAX;
-        for(int j=i;j<n;j++)
+
+        int temp;
+        for(int j=i+1;j<n;j++)
         {   
-            if(a[j]<mi)
+            if(a[j]<a[i])
             {
-             mi=a[j];
-             k=j;
+             temp=a[j];
+             a[j]=a[i];
+             a[i]=temp;
              
             }
         }
-        a[k]=a[i];
-        a[i]=mi;
+        
         
     }
     for(int i=0;i<n;i++)
