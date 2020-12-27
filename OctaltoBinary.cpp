@@ -9,7 +9,7 @@ long oct2dec(long oc)
     {
         dec=dec+(oc%10)*pow(8,i);
         i++;
-        oc=oc/10;
+        oc=oc/10; 
     }
     return dec;
 }

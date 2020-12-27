@@ -1,1 +1,1 @@
-{"name":"Local: OctaltoBinary","url":"c:\\CppLearn\\OctaltoBinary.cpp","tests":[{"id":1608959421593,"input":"","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\CppLearn\\OctaltoBinary.cpp","group":"local","local":true}
+{"name":"Local: OctaltoBinary","url":"c:\\CppLearn\\OctaltoBinary.cpp","tests":[{"id":1608959421593,"input":"165","output":"1110101"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\CppLearn\\OctaltoBinary.cpp","group":"local","local":true}
