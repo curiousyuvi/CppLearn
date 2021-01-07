@@ -24,9 +24,11 @@ int  main(){
                    if(i<n-1)
                   {
                   if(a[i]>a[i+1])
+                   
                    r++;
                   }
                   else
+                  
                   r++;
         
                 }
@@ -39,7 +41,7 @@ int  main(){
        
         
     }
-    cout<<"Case #"<<N<<":"<<r;
+    cout<<"Case #"<<x<<":"<<r<<endl;
     }
     return 0;
 }
