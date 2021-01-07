@@ -46,7 +46,7 @@ void sortAscend(int a[],int n)
              
             }
         }
-        
+         
         
     }
     for(int i=0;i<n;i++)

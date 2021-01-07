@@ -1,6 +1,18 @@
-#include<stdio.h>
-#include<conio.h>
+#include<iostream>
+using namespace std;
 int main()
 {
-    printf("c is high level programming language that was originally developed by dennis/nRitchie to develop the UNIX Operating system at AT and T Bell lab.");
+    for(int i=0;i<5;i++)
+    {
+        for(int j=0;j<=i;j++)
+        {
+            cout<<j;
+            if(j==2)
+            goto outer;
+        }
+        outer :
+        break;
+    }
+    return 0;
+    
 }

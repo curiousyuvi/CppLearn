@@ -17,4 +17,7 @@ int main()
             
             cout<<c<<" ";
         }
-        cout<<endl; 
+        cout<<endl;
+    }
+    return 0;
+} 
